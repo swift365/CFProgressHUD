@@ -1,0 +1,6 @@
+framework module CFProgressHUD {
+  umbrella header "CFProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+PODS:
+  - CFProgressHUD (0.1.0):
+    - JGProgressHUD
+    - MBProgressHUD
+  - JGProgressHUD (1.4)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - CFProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  CFProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CFProgressHUD: 9861baafe7a2b19da60cd30d664a0e538b2b6754
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: fcdd36ade713149a836f4e6f5408ea647f3069fc
+
+COCOAPODS: 1.1.1
