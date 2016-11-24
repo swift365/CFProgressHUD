@@ -13,9 +13,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 `CFProgressHUD` works on iOS 9.0+ and requires ARC to build. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
-* Foundation.framework
-* UIKit.framework
-* CoreGraphics.framework
+- iOS 9.0+
+- Xcode8+
+- Swift 3
 
 You will need the latest developer tools in order to build `CFProgressHUD`. Old Xcode versions might work, but compatibility will not be explicitly maintained.
 
@@ -27,7 +27,6 @@ You will need the latest developer tools in order to build `CFProgressHUD`. Old 
 
 1. Add a pod entry for CFProgressHUD to your Podfile `pod 'CFProgressHUD', '~> 0.1.0'`
 2. Install the pod(s) by running `pod install`.
-3. Include CFProgressHUD wherever you need it with `#import "CFProgressHUD.h"`.
 
 ## Installation
 
